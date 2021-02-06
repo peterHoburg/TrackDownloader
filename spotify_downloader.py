@@ -1,14 +1,16 @@
+import concurrent.futures
+import datetime
+import os
+import re
+import unicodedata
+import urllib.request
+
+import moviepy.editor as mp
+import spotipy
 import youtube_dl
 from spotipy.oauth2 import SpotifyOAuth
-import spotipy
-import urllib.request
-import re
-import moviepy.editor as mp
-import os
-import datetime
+
 from schema import DatabaseHandler, Downloads
-import concurrent.futures
-import unicodedata
 
 
 class SpotifyDownloader:

@@ -1,0 +1,11 @@
+-r ./requirements.txt
+-c ./requirements.txt
+
+hypothesis
+hypothesis[cli]
+hypothesis[pytest]
+ipdb
+mypy
+pyre-check
+pytest
+Sphinx
