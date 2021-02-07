@@ -118,5 +118,5 @@ class SpotifyDownloader:
 
 if __name__ == '__main__':
     spotify_downloader = SpotifyDownloader()
-    # spotify_downloader.multi_run()
-    spotify_downloader.download_video('https://www.youtube.com/watch?v=tAe2Q_LhY8g')
+    spotify_downloader.multi_run()
+    # spotify_downloader.download_video('https://www.youtube.com/watch?v=tAe2Q_LhY8g')
